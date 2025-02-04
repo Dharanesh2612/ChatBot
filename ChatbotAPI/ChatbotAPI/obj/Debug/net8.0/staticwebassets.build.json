@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "O0MvworCDHzkth91qXCbqe1syC5aLOXHeJeXCu6Jrws=",
+  "Hash": "oFyu7dSZ0384r2/mWM822Bzkf6Y9RkvRpubqdD7KBBA=",
   "Source": "ChatbotAPI",
   "BasePath": "_content/ChatbotAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatbotAPI\\wwwroot",
+      "Source": "ChatbotAPI",
+      "ContentRoot": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\",
+      "BasePath": "_content/ChatbotAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\images\\Image_1.png",
+      "SourceId": "ChatbotAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\",
+      "BasePath": "_content/ChatbotAPI",
+      "RelativePath": "images/Image_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Image_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\images\\Image_2.png",
+      "SourceId": "ChatbotAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\",
+      "BasePath": "_content/ChatbotAPI",
+      "RelativePath": "images/Image_2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Image_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\images\\Image_3.png",
+      "SourceId": "ChatbotAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\",
+      "BasePath": "_content/ChatbotAPI",
+      "RelativePath": "images/Image_3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Image_3.png"
+    }
+  ]
 }

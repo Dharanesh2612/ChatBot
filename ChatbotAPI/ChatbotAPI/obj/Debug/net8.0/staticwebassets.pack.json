@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\images\\Image_1.png",
+      "PackagePath": "staticwebassets\\images\\Image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\images\\Image_2.png",
+      "PackagePath": "staticwebassets\\images\\Image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\wwwroot\\images\\Image_3.png",
+      "PackagePath": "staticwebassets\\images\\Image_3.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatbotAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChatbotAPI.props",
+      "PackagePath": "build\\ChatbotAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatbotAPI.props",
+      "PackagePath": "buildMultiTargeting\\ChatbotAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChatbotAPI.props",
+      "PackagePath": "buildTransitive\\ChatbotAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -90,7 +90,7 @@ namespace ChatbotAPI.Models
                     }
                 }
 
-                // 2. Handle Compound Sentences (split and process multiple parts of the sentence)
+                
 
                 // Split sentence into sub-sentences (using commas, semicolons, 'and', 'but')
                 var compoundSentences = Regex.Split(trimmedSentence, @"[,;]|\band\b|\bbut\b");

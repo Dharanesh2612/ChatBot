@@ -1,0 +1,58 @@
+.image-with-text-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .message {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .image-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .nearby-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .file-name {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+  }
+  

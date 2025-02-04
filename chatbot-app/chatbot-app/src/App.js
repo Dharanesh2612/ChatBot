@@ -5,14 +5,18 @@ import AskQuestionComponent from './AskQuestionComponent';
 import QuestionsComponent from './QuestionsComponent';
 import Chatbot from './Chatbot';
 import ImageComponent from './ImageComponent';
+import ImageWithText from './ImageWithText';
+
 
 function App() {
   return (
     <div className="App">
       {/* <QuestionsComponent/>
       <AskQuestionComponent/> */}
-       {/* <Chatbot/> */}
-       <ImageComponent/>
+      / <Chatbot/>
+       {/* <ImageComponent/> */}
+       {/* <ImageWithText/> */}
+      
     </div>
   );
 }
