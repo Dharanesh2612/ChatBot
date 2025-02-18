@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|c:\\users\\dharanesh.r\\source\\repos\\chatbot-pro\\chatbotapi\\chatbotapi\\controllers\\chatbotvectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|solutionrelative:chatbotapi\\controllers\\chatbotvectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|c:\\users\\dharanesh.r\\source\\repos\\chatbot-pro\\chatbotapi\\chatbotapi\\services\\synonymservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|solutionrelative:chatbotapi\\services\\synonymservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|c:\\users\\dharanesh.r\\source\\repos\\chatbot-pro\\chatbotapi\\chatbotapi\\controllers\\documentimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|solutionrelative:chatbotapi\\controllers\\documentimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|c:\\users\\dharanesh.r\\source\\repos\\chatbot-pro\\chatbotapi\\chatbotapi\\controllers\\chatbot1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|solutionrelative:chatbotapi\\controllers\\chatbot1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F73C2EA1-DDC3-4296-9656-9B5D38F14345}|ChatbotAPI\\ChatbotAPI.csproj|c:\\users\\dharanesh.r\\source\\repos\\chatbot-pro\\chatbotapi\\chatbotapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SynonymService.cs",
-              "DocumentMoniker": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Services\\SynonymService.cs",
-              "RelativeDocumentMoniker": "ChatbotAPI\\Services\\SynonymService.cs",
-              "ToolTip": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Services\\SynonymService.cs",
-              "RelativeToolTip": "ChatbotAPI\\Services\\SynonymService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAQAAAADAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Chatbot1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Controllers\\Chatbot1Controller.cs",
+              "RelativeDocumentMoniker": "ChatbotAPI\\Controllers\\Chatbot1Controller.cs",
+              "ToolTip": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Controllers\\Chatbot1Controller.cs",
+              "RelativeToolTip": "ChatbotAPI\\Controllers\\Chatbot1Controller.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:25:44.87Z",
+              "WhenOpened": "2025-02-11T11:17:04.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Program.cs",
               "RelativeDocumentMoniker": "ChatbotAPI\\Program.cs",
               "ToolTip": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Program.cs",
               "RelativeToolTip": "ChatbotAPI\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T09:13:52.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DocumentImagesController.cs",
-              "DocumentMoniker": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Controllers\\DocumentImagesController.cs",
-              "RelativeDocumentMoniker": "ChatbotAPI\\Controllers\\DocumentImagesController.cs",
-              "ToolTip": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Controllers\\DocumentImagesController.cs",
-              "RelativeToolTip": "ChatbotAPI\\Controllers\\DocumentImagesController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwEMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T08:52:26.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatbotVectorController.cs",
-              "DocumentMoniker": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Controllers\\ChatbotVectorController.cs",
-              "RelativeDocumentMoniker": "ChatbotAPI\\Controllers\\ChatbotVectorController.cs",
-              "ToolTip": "C:\\Users\\dharanesh.r\\source\\repos\\ChatBot-Pro\\ChatbotAPI\\ChatbotAPI\\Controllers\\ChatbotVectorController.cs",
-              "RelativeToolTip": "ChatbotAPI\\Controllers\\ChatbotVectorController.cs",
-              "ViewState": "AgIAAAgCAAAAAAAAAAAlwA8CAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:55:40.724Z",
               "EditorCaption": ""
             }
           ]

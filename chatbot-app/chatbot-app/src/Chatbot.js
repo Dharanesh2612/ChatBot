@@ -136,7 +136,7 @@ const Chatbot = () => {
     setError(null);
 
     try {
-      const response = await axios.post("http://localhost:5197/api/vector-chatbot/ask-vector-question", { question });
+      const response = await axios.post("https://localhost:7172/api/vector-chatbot/ask-vector-question", { question });
 
       const botResponse = response.data.answer; 
       const images = response.data.images?.[0].images || []; 
@@ -182,26 +182,31 @@ const Chatbot = () => {
           </div>
 
           <div className="chatbot-body">
-            <div className="chatbot-messages">
-              {messages.map((message, index) => (
-                <div key={index} className={message.sender === "user" ? "user-message" : "bot-message"}>
-                  <p>{message.text}</p>
-                          {message.images && message.images.length > 0 && (
-                    <div className="image-container">
-                      {message.images.map((image, idx) => (
-                        <img
-                          key={idx}
-                          src={`data:image/jpeg;base64,${image}`}
-                          alt={`Image ${idx + 1}`}
-                          className="image"
-                          style={{ width: "200px", height: "200px", margin: "10px" }}
-                        />
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
+          <div className="chatbot-messages">
+  {messages.map((message, index) => (
+    <div
+      key={index}
+      className={message.sender === "user" ? "user-message" : "bot-message"}
+    >
+      <p>{message.text}</p>
+      {/* Check if there are images and display them within the same message box */}
+      {message.images && message.images.length > 0 && (
+        <div className="image-container">
+          {message.images.map((image, idx) => (
+            <img
+              key={idx}
+              src={`data:image/jpeg;base64,${image}`}
+              alt={`Image ${idx + 1}`}
+              className="image"
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  ))}
+</div>
+
+
 
             <AskQuestionComponent onSubmit={handleAskQuestionSubmit} />
             {/* {!isQuestionAnswered && (

@@ -54,6 +54,18 @@
               "target": "Package",
               "version": "[2.0.2, )"
             },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.69.0, )"
+            },
+            "Google.Cloud.Dialogflow.V2": {
+              "target": "Package",
+              "version": "[4.25.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
             "IronWord": {
               "target": "Package",
               "version": "[2025.1.2, )"

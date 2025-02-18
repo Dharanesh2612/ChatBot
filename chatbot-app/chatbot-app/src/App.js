@@ -6,6 +6,7 @@ import QuestionsComponent from './QuestionsComponent';
 import Chatbot from './Chatbot';
 import ImageComponent from './ImageComponent';
 import ImageWithText from './ImageWithText';
+import DialogflowChat from './DialogflowChat';
 
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
     <div className="App">
       {/* <QuestionsComponent/>
       <AskQuestionComponent/> */}
-      / <Chatbot/>
+      {/* <Chatbot/> */}
        {/* <ImageComponent/> */}
        {/* <ImageWithText/> */}
+       <DialogflowChat/>
       
     </div>
   );

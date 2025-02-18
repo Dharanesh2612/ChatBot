@@ -139,16 +139,25 @@
 }
 
 /* Messages styling */
-.chatbot-messages {
+/* .chatbot-messages {
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 10px 0;
   max-height: calc(100% - 70px);
-  /* overflow-y: auto; */
+  
+} */
+
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  padding: 10px 0;
+  max-height: calc(100% - 70px);
+  
 }
 
-.user-message, .bot-message {
+/* .user-message, .bot-message {
   display: inline-block;
   max-width: 70%;
   padding: 12px;
@@ -158,29 +167,75 @@
   margin-bottom: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   word-wrap: break-word; 
+} */
+
+
+.user-message, .bot-message {
+  display: flex;
+  flex-direction: column; 
+  max-width: 70%;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  word-wrap: break-word; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: flex-start; 
+  background-color: #f0f8ff; 
 }
 
-/* User message styles */
+.bot-message .image-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+  justify-content: center; /* Center images within the message */
+}
+
+.bot-message .image-container img {
+  width: 150px;  /* Adjust image width */
+  height: 150px; /* Adjust image height */
+  border-radius: 8px; /* Make the images rounded */
+  margin: 10px 0; /* Add spacing between images */
+}
+
 .user-message {
-  background-color: #d1f7c4;
-  align-self: flex-end;
+  background-color: #d1f7c4;  
+  align-self: flex-end;  
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  align-items: flex-end; 
 }
 
 /* Bot message styles */
 .bot-message {
+  background-color: #f0f8ff; 
+  align-self: flex-start; 
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-items: flex-start; }
+
+/* User message styles */
+/* .user-message {
+  background-color: #d1f7c4;
+  align-self: flex-end;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+} */
+
+/* Bot message styles */
+/* .bot-message {
   background-color: #f0f8ff;
   align-self: flex-start;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
+} */
 
 /* Ensure images inside messages are aligned properly */
 .image-container {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  /* gap: 10px; */
   flex-wrap: wrap;
 }
 
@@ -188,7 +243,7 @@
 .image {
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 200px; /* Fixed size for images */
+  width: 200px;
   height: 200px;
   margin: 10px;
 }

@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ChatbotAPI.Controllers.Chatbot1Controller",
+    "Method": "AskVectorQuestion",
+    "RelativePath": "api/chatbot1/ask-vector-question",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "ChatbotAPI.Models.UserQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ChatbotAPI.Controllers.DocumentImagesController",
     "Method": "GetAllImages",
     "RelativePath": "api/document-images/all-images",
